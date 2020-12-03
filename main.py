@@ -51,3 +51,25 @@ correlation_graphs = Correlation()
 correlation_graphs.matrix_correlation(df)
 
 
+print(df.columns)
+#print first 10 items
+df.swimming_pool.convert_dtypes(convert_boolean=True)
+print(df.dtypes)
+
+
+
+# Which variable is the target ?
+
+# How many rows and columns ?
+
+# What is the correlation between the variables and the target ? (Why might that be?)
+
+# What is the correlation between the variables and the other variables ? (Why?)
+
+# Which variables have the greatest influence on the target ?
+
+# Which variables have the least influence on the target ?
+
+# How many qualitative and quantitative variables are there ? How would you transform these values into numerical values ?
+
+# Percentage of missing values per column ?
