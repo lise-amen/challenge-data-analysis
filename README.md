@@ -56,12 +56,14 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     How many qualitative and quantitative variables are there ? How would you transform these values into numerical values ?
       Quantitative: 'price','nr_of_facades','nr_of_rooms', 'area', 'terrace_area', 'garden_area', 'total_land_area'
       Qualitative: 'locality', 'type_of_property', 'subtype_of_property', 'type_of_sale', 'equiped_kitchen', 'furnished', 'open_fire', 'terrace', 'garden', 'swimming_pool',           'building_condition'
-    
+    subtype_of_property
     Percentage of missing values per column ?
-    
-       | Attempt | #1  | #2  |
-       | :-----: | :-: | :-: |
-       | Seconds | 301 | 283 |
+   
+   
+|   | price  | locality  | type_of_property  | subtype_of_property  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Missing values in %  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
 
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
