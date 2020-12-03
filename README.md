@@ -23,20 +23,45 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 
 ## How
 ### Step 1: Data cleaning
-    No duplicates
-    No blank spaces (ex: " I love python " => "I love python")
-    No errors
-    No empty values
+    [x] No duplicates
+    [x] No blank spaces (ex: " I love python " => "I love python")
+    [x] No errors
+    [x] No empty values
 
 ### Step 2: Data analysis
-    Which variable is the target ?
-    How many rows and columns ?
+    Which variable is the target ? --> Price
+    How many rows and columns ? --> 7611 x 19
     What is the correlation between the variables and the target ? (Why might that be?)
+      'price','locality', 
+      'price','type_of_property', 
+      'price','subtype_of_property', 
+      'price','type_of_sale', 
+      'price','nr_of_rooms', 
+      'price','area', 
+      'price','equiped_kitchen', 
+      'price','furnished',
+      'price','open_fire', 
+      'price','terrace',        
+      'price','terrace_area', 
+      'price','garden', 
+      'price','garden_area',
+      'price','total_land_area', 
+      'price','nr_of_facades', 
+      'price','swimming_pool',
+      'price','building_condition'
     What is the correlation between the variables and the other variables ? (Why?)
     Which variables have the greatest influence on the target ?
     Which variables have the least influence on the target ?
+    
     How many qualitative and quantitative variables are there ? How would you transform these values into numerical values ?
+      Quantitative: 'price','nr_of_facades','nr_of_rooms', 'area', 'terrace_area', 'garden_area', 'total_land_area'
+      Qualitative: 'locality', 'type_of_property', 'subtype_of_property', 'type_of_sale', 'equiped_kitchen', 'furnished', 'open_fire', 'terrace', 'garden', 'swimming_pool',           'building_condition'
+    
     Percentage of missing values per column ?
+    
+       | Attempt | #1  | #2  |
+       | :-----: | :-: | :-: |
+       | Seconds | 301 | 283 |
 
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
