@@ -58,19 +58,16 @@ We are analyzing this data for a fictitious real estate company who wants to cre
       Qualitative: 'locality', 'type_of_property', 'subtype_of_property', 'type_of_sale', 'equiped_kitchen', 'furnished', 'open_fire', 'terrace', 'garden', 'swimming_pool',           'building_condition'
     subtype_of_property
     Percentage of missing values per column ?
-   
-   
-|   | price  | locality  | type_of_property  | subtype_of_property  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
-
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-
-| Missing values in %  |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |
 
 
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
     Which variables would you delete and why ?
     In your opinion, which 5 variables are the most important and why?
+    
+    Creation of a new file belgian_postal_codes.csv to match the locality info in our data set with its location in a province and region of Belgium.
+    Creation of two new columns in the dataset: Province and Region
+    
     What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
     What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
     What are the most expensive municipalities in Flanders? (Average price, median price, price per square meter)
