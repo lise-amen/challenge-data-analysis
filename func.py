@@ -3,12 +3,13 @@ import pandas as pd
 import numpy as np
 import matplotlib
 
-
+# Read csv file 
+df = pd.read_csv('immoweb_scrapped.csv')
 corr_matrix = df.corrwith(df['price'])
 
 
 ############## Percentage of missing values per columns #############
-def percentMissingg(df):
+def percentMissing(df):
     percent_missing = df.isnull().sum()*100 /len(df)
     missing_value_df = pd.DataFrame({'column_name': df.columns, 'percent_missing':percent_missing})
     return round(missing_value_df)
@@ -27,7 +28,7 @@ def getShape(df):
     return(df.shape)
 
 #Correlation between all col
-def corrAll():
+def corrAll(df):
     price = df['price']
     cols = df.loc[:,df.columns != 'price']
     return df[df.columns[1:]].corr()['price'][:]
