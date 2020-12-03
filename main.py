@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib
+import func
 
 # Read csv file 
 df = pd.read_csv('immoweb_scrapped.csv')
@@ -20,10 +21,7 @@ df.type_of_property.value_counts()
 df.subtype_of_property.value_counts()
 # df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'
 
-############## Percentage of missing values per columns #############
-percent_missing = df.isnull().sum()*100 /len(df)
-missing_value_df = pd.DataFrame({'column_name': df.columns, 'percent_missing':percent_missing})
-print(round(missing_value_df))
+
 
 
 ############## set the number of room to one if it's equal to 0 (WE NEED A PLACE TO SLEEP CMON) #############
@@ -50,29 +48,10 @@ df['furnished'] = df['furnished'].astype('bool')
 df['terrace'] = df['terrace'].astype('bool')
 df['garden'] = df['garden'].astype('bool')
 
-############# Set to int all object type ##########
-# NEED TO SET ALL BOOL BEFORE DOING THIS (even if actually it's not really a problem, 0 1)
-for col in df.select_dtypes(['object']):
-    x = df[col].unique()
-    x_dict = dict(zip(x, range(len(x))))
-    df[col] = [x_dict[type] for type in df[col]]
 
 
-#Number of rows and cols
-print(df.shape)
 
-#Correlation between all col
-price = df['price']
-cols = df.loc[:,df.columns != 'price']
-print(df[df.columns[1:]].corr()['price'][:])
 
-#Correlation between target (price) and other cols
-corr_matrix = df.corrwith(df['price'])
-print(corr_matrix.sort_values(ascending=False))
-#Get max of correlation
-print(corr_matrix.drop(['price']).idxmax())
-# Get Min of correlation
-print(corr_matrix.idxmin())
 
 print(df)
 
