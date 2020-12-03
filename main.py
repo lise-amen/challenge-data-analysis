@@ -1,6 +1,10 @@
+from src.Models.correlation import Correlation
+
 import pandas as pd
 import numpy as np
-import matplotlib
+import matplotlib.pyplot as plt
+import seaborn as sns
+
 
 # Read csv file 
 df = pd.read_csv('immoweb_scrapped.csv')
@@ -40,5 +44,10 @@ df.loc[df['terrace'].isna(), 'terrace'] = False
 df.loc[df['garden'].isna(), 'garden'] = False
 df.loc[df['swimming_pool'].isna(), 'swimming_pool'] = False
 
+# create the objet correlation that contain methods to create graph 
+correlation_graphs = Correlation()
+                                                                                    
+# call matrix_correlation method to create a matrix correlation            
+correlation_graphs.matrix_correlation(df)
 
 

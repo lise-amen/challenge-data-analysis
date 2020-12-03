@@ -1,0 +1,193 @@
+1606994642776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.MCVSRrGW54j4"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994645412	Marionette	INFO	Listening on port 38043
+1606994645511	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994651886	Marionette	INFO	Stopped listening on port 38043
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+1606994652392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mLgPu7wRng5Z"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994654763	Marionette	INFO	Listening on port 41819
+1606994654827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994655418	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LIfz1zqQojVd"
+*** You are running in headless mode.
+1606994656907	Marionette	INFO	Stopped listening on port 41819
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994657985	Marionette	INFO	Listening on port 37487
+1606994658048	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994658400	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.k9tyvWVBwDgM"
+*** You are running in headless mode.
+1606994659984	Marionette	INFO	Stopped listening on port 37487
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+1606994661141	Marionette	INFO	Listening on port 46779
+1606994661236	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994661426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FCQOz3bfyx1x"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994664053	Marionette	INFO	Listening on port 34729
+1606994664167	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994664417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.NMpYbSIA3d5O"
+*** You are running in headless mode.
+1606994665066	Marionette	INFO	Stopped listening on port 46779
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994667165	Marionette	INFO	Stopped listening on port 34729
+1606994667617	Marionette	INFO	Listening on port 33003
+1606994667684	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994668419	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fbHmNdWCEs2E"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994670705	Marionette	INFO	Stopped listening on port 33003
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile.NMpYbSIA3d5O/protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606994671396	Marionette	INFO	Listening on port 46115
+1606994671465	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994671511	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.lsXv95UQVBdV"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994673931	Marionette	INFO	Stopped listening on port 46115
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+1606994674444	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5ltNeeeNSS5F"
+*** You are running in headless mode.
+1606994675262	Marionette	INFO	Listening on port 42129
+1606994675368	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994676443	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.m4F18xPnHSOV"
+*** You are running in headless mode.
+1606994677388	Marionette	INFO	Listening on port 36501
+1606994677506	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994678874	Marionette	INFO	Stopped listening on port 42129
+1606994679838	Marionette	INFO	Listening on port 38303
+1606994679894	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994680468	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Gjl1GRZ8MINw"
+*** You are running in headless mode.
+1606994680695	Marionette	INFO	Stopped listening on port 36501
+1606994682404	Marionette	INFO	Stopped listening on port 38303
+1606994682486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.v6A0eAEvQbuQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606994683786	Marionette	INFO	Listening on port 38319
+1606994683932	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994685478	Marionette	INFO	Listening on port 39795
+1606994685552	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994686464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Pj5xZHkNTRKO"
+*** You are running in headless mode.
+1606994687470	Marionette	INFO	Stopped listening on port 39795
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994689485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.jDYnPgjkBZ33"
+*** You are running in headless mode.
+1606994689632	Marionette	INFO	Stopped listening on port 38319
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile.Gjl1GRZ8MINw/protections.sqlite
+1606994691566	Marionette	INFO	Listening on port 33779
+1606994691654	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994692485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.N0IJx8AbHNPD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+*** You are running in headless mode.
+1606994693609	Marionette	INFO	Listening on port 37339
+1606994693665	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994694508	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.BJZwHkewgtU9"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994695093	Marionette	INFO	Stopped listening on port 33779
+1606994696590	Marionette	INFO	Stopped listening on port 37339
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+1606994696958	Marionette	INFO	Listening on port 40245
+1606994697058	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994697543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.g4f9YhtnjcnX"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994699898	Marionette	INFO	Listening on port 39597
+1606994700007	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994700338	Marionette	INFO	Stopped listening on port 40245
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+1606994701537	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CERznWOuTRVA"
+*** You are running in headless mode.
+1606994702165	Marionette	INFO	Listening on port 38299
+1606994702223	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994702555	Marionette	INFO	Stopped listening on port 39597
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994704546	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dLyO9ljdwSk3"
+*** You are running in headless mode.
+1606994704951	Marionette	INFO	Stopped listening on port 38299
+1606994705367	Marionette	INFO	Listening on port 43751
+1606994705473	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994707547	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Zt6baPxGKQ77"
+*** You are running in headless mode.
+1606994707858	Marionette	INFO	Listening on port 42667
+1606994707925	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994708142	Marionette	INFO	Stopped listening on port 43751
+1606994709584	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZN2MCb533JFQ"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994710817	Marionette	INFO	Stopped listening on port 42667
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 21: uncaught exception: Error while loading the library
+1606994711177	Marionette	INFO	Listening on port 43003
+1606994711292	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994712559	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nx6NsmA5SyC3"
+*** You are running in headless mode.
+1606994713119	Marionette	INFO	Listening on port 38331
+1606994713270	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994715005	Marionette	INFO	Stopped listening on port 43003
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606994716495	Marionette	INFO	Listening on port 44713
+1606994716594	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.CYjNaQMGppZj"
+1606994716608	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994719231	Marionette	INFO	Listening on port 44129
+1606994719338	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994719607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Yz9vn7AAJOve"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1606994722329	Marionette	INFO	Listening on port 43549
+1606994722447	Marionette	WARN	TLS certificate errors will be ignored for this session
+1606994722617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GjeNXc8oShu9"
+*** You are running in headless mode.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1606994725635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EZtZjLuerwf5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+*** You are running in headless mode.
+1606994726182	Marionette	INFO	Stopped listening on port 38331
+1606994726218	Marionette	INFO	Stopped listening on port 44713
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+1606994726716	Marionette	INFO	Stopped listening on port 44129
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+JavaScript error: https://static.produpress.be/js/v5/library.js, line 1: TypeError: can't convert undefined to object
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1606994728487	Marionette	INFO	Stopped listening on port 43549
+JavaScript error: https://delivery.produpress.be/assets/js/immoweb/pdpads.js, line 33: ReferenceError: ProduPressAds is not defined
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1031: Error: Sqlite.jsm has been shutdown. Cannot open connection to: /tmp/rust_mozprofile.Yz9vn7AAJOve/protections.sqlite
+1606994728948	Marionette	INFO	Listening on port 40211
+1606994729033	Marionette	WARN	TLS certificate errors will be ignored for this session
