@@ -36,12 +36,31 @@ df.loc[df['swimming_pool'].isna(), 'swimming_pool'] = False
 print(df.columns)
 #print first 10 items
 df.swimming_pool.convert_dtypes(convert_boolean=True)
-print(df.dtypes)
+#Number of rows and cols
+
+print(df.shape)
+#Correlation between all col
+
+price = df['price']
+cols = df.loc[:,df.columns != 'price']
+#print(df[df.columns[1:]].corr()['price'][:])
+
+#Correlation between target (price) and other cols
+
+corr_matrix = df.corrwith(df['price'])
+print(corr_matrix.sort_values(ascending=False))
+#Get max of correlation
+print(corr_matrix.drop(['price']).idxmax())
+# Get Min of correlation
+print(corr_matrix.idxmin())
+
+
+
 
 
 
 # Which variable is the target ?
-
+#price
 # How many rows and columns ?
 
 # What is the correlation between the variables and the target ? (Why might that be?)
