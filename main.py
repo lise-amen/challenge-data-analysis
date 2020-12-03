@@ -1,17 +1,8 @@
-<<<<<<< HEAD
-import pandas as pd 
-
-df = pd.read_csv('immoweb_scrapped.csv')
-
-
-=======
 from src.Models.correlation import Correlation
-
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 
 # Read csv file 
 df = pd.read_csv('immoweb_scrapped.csv')
@@ -80,4 +71,3 @@ print(df.dtypes)
 # How many qualitative and quantitative variables are there ? How would you transform these values into numerical values ?
 
 # Percentage of missing values per column ?
->>>>>>> e77ff9ad1ea17c0796cc57981d0fccc1eb6472d3
