@@ -20,6 +20,12 @@ df.type_of_property.value_counts()
 df.subtype_of_property.value_counts()
 # df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'
 
+############## Percentage of missing values per columns #############
+percent_missing = df.isnull().sum()*100 /len(df)
+missing_value_df = pd.DataFrame({'column_name': df.columns, 'percent_missing':percent_missing})
+print(round(missing_value_df))
+
+
 ############## set the number of room to one if it's equal to 0 (WE NEED A PLACE TO SLEEP CMON) #############
 df.loc[df['nr_of_rooms'] == 0, 'nr_of_rooms'] = 1
 df.loc[df['nr_of_facades'] == 0, 'nr_of_facades'] = 1
@@ -58,7 +64,7 @@ print(df.shape)
 #Correlation between all col
 price = df['price']
 cols = df.loc[:,df.columns != 'price']
-#print(df[df.columns[1:]].corr()['price'][:])
+print(df[df.columns[1:]].corr()['price'][:])
 
 #Correlation between target (price) and other cols
 corr_matrix = df.corrwith(df['price'])
@@ -67,6 +73,6 @@ print(corr_matrix.sort_values(ascending=False))
 print(corr_matrix.drop(['price']).idxmax())
 # Get Min of correlation
 print(corr_matrix.idxmin())
-print(df.type_of_sale.head())
+
 print(df)
 
