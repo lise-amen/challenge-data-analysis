@@ -50,7 +50,9 @@ We are analyzing this data for a fictitious real estate company who wants to cre
       'price','swimming_pool',
       'price','building_condition'
     What is the correlation between the variables and the other variables ? (Why?)
+    
     Which variables have the greatest influence on the target ?
+    area, nr_of_rooms
     Which variables have the least influence on the target ?
     
     How many qualitative and quantitative variables are there ? How would you transform these values into numerical values ?
