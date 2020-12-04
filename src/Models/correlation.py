@@ -14,7 +14,7 @@ class Correlation :
 
         corr = df_no_index.corr()
 
-        sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
+        sns.heatmap(corr, annot=True, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
                     square=True, ax=ax)
         
         #display the graph
