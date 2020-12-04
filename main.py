@@ -66,9 +66,9 @@ correlation_graphs = Correlation()
 correlation_graphs.matrix_correlation(df)
 filtring(df)
 getShape(df)
-corrAll(df)
-corrPrice()
-corrMax()
+print(corrAll(df))
+print(corrPrice())
+print(corrMax())
 print(corrMin())
 
 
