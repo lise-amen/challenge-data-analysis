@@ -65,8 +65,8 @@ correlation_graphs = Correlation()
                                                                                     
 # call matrix_correlation method to create a matrix correlation            
 correlation_graphs.matrix_correlation(df)
-filtring(df)
-getShape(df)
+print(filtring(df))
+print(getShape(df))
 print(corrAll(df))
 print(corrPrice())
 print(corrMax())
