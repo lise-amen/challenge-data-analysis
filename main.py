@@ -62,38 +62,22 @@ def filtring(df):
 
     return df
 
-
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 df = filtring(df)
-=======
->>>>>>> 95d9890f74452c1c05fa97fc92e223467d569b4a
 
->>>>>>> b2fb8b0c08507c84775841e5306865aae7aa7322
 # create the objet correlation that contain methods to create graph 
 correlation_graphs = Correlation()
                                                                                     
 # call matrix_correlation method to create a matrix correlation            
 correlation_graphs.matrix_correlation(df)
-<<<<<<< HEAD
 filtring(df)
-=======
-<<<<<<< HEAD
-
-
 getShape(df)
 corrAll(df)
 corrPrice()
 corrMax()
-=======
-print(filtring(df))
->>>>>>> b2fb8b0c08507c84775841e5306865aae7aa7322
 print(getShape(df))
 print(corrAll(df))
 print(corrPrice())
 print(corrMax())
->>>>>>> 95d9890f74452c1c05fa97fc92e223467d569b4a
 print(corrMin())
 
 
