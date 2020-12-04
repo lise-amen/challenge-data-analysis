@@ -8,6 +8,7 @@ from func import *
 
 # Read csv file 
 df = pd.read_csv('immoweb_scrapped.csv')
+
 def filtring(df):
     #remove Nan in column price, area
     df = df[df['price'].notna() & df['area'].notna()& df['building_condition'].notna()]
@@ -28,6 +29,7 @@ def filtring(df):
     df.subtype_of_property.value_counts()
     # df.loc[df['column name'] condition, 'new column name'] = 'value if condition is met'
     percentMissing(df)
+
 
     ############## set the number of room to one if it's equal to 0 (WE NEED A PLACE TO SLEEP CMON) #############
     df.loc[df['nr_of_rooms'] == 0, 'nr_of_rooms'] = 1
@@ -54,22 +56,37 @@ def filtring(df):
     df['terrace'] = df['terrace'].astype('bool')
     df['garden'] = df['garden'].astype('bool')
     setObjToInt(df)
+
+    #remove the column type_of_sale
+    del df['type_of_sale'] 
+
     return df
 
 
-
-
+<<<<<<< HEAD
+df = filtring(df)
+=======
+>>>>>>> 95d9890f74452c1c05fa97fc92e223467d569b4a
 
 # create the objet correlation that contain methods to create graph 
 correlation_graphs = Correlation()
                                                                                     
 # call matrix_correlation method to create a matrix correlation            
 correlation_graphs.matrix_correlation(df)
+<<<<<<< HEAD
+
+
+getShape(df)
+corrAll(df)
+corrPrice()
+corrMax()
+=======
 print(filtring(df))
 print(getShape(df))
 print(corrAll(df))
 print(corrPrice())
 print(corrMax())
+>>>>>>> 95d9890f74452c1c05fa97fc92e223467d569b4a
 print(corrMin())
 
 
