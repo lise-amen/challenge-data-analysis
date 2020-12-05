@@ -6,6 +6,8 @@ def getDf():
    immo = pd.read_csv('immoweb_scrapped.csv',encoding='utf-8-sig')
    localite = pd.read_csv('liste-des-codes-postaux-belges-fr.csv',sep=';',encoding='utf-8-sig')
    del localite['Sous-commune']
+   #remove the column type_of_sale
+
    df = filtring(immo)
 
 

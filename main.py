@@ -10,6 +10,7 @@ from func import *
 df = pd.read_csv('immoweb_scrapped.csv')
 
 def filtring(df):
+
     #remove Nan in column price, area
     df = df[df['price'].notna() & df['area'].notna()& df['building_condition'].notna()]
 
@@ -37,7 +38,7 @@ def filtring(df):
     df.loc[df['nr_of_facades'] == 10, 'nr_of_facades'] = 1
     df.loc[df['garden_area'].isna(), 'garden_area'] = 0
     df.loc[df['terrace_area'].isna(), 'terrace_area'] = 0
-    df.loc[df['type_of_sale'].isna(), 'type_of_sale'] = 0
+    # df.loc[df['type_of_sale'].isna(), 'type_of_sale'] = 0
 
     ############## Set total_land_area to area if NaN #############
     #Set total_land_area to area if NaN
@@ -56,9 +57,6 @@ def filtring(df):
     df['terrace'] = df['terrace'].astype('bool')
     df['garden'] = df['garden'].astype('bool')
     setObjToInt(df)
-
-    #remove the column type_of_sale
-    del df['type_of_sale'] 
 
     return df
 
