@@ -53,11 +53,30 @@ We are analyzing this data for a fictitious real estate company who wants to cre
    
 ![Regression analysis](scatterreg.png)
     
-    Which variables would you delete and why ?
     In your opinion, which 5 variables are the most important and why?
+      - price
+      - number of rooms
+      - area
+      - swimming pool
+      - building condition
+      
+    --> Highest correlation with our price variable.
+      
+    
+    Which variables would you delete and why ?
+      - fireplace
+      - subtype of property
+      - garden
+      - garden area
+      
+    --> Lowest correlations with our price variable.
+    
     
     Creation of a new file belgian_postal_codes.csv to match the locality info in our data set with its location in a province and region of Belgium.
     Creation of two new columns in the dataset: Province and Region
+    
+ ![Average property price/sqm by Province (barchart)](price_area_province.png)   
+ ![Average property price/sqm by Region (barchart)](avg_price_region.png) 
     
     What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
     What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
