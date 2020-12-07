@@ -32,8 +32,8 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     Which variable is the target ? --> Price
     How many rows and columns ? --> 7611 x 20
     What is the correlation between the variables and the target ? (Why might that be?)
-
-      ![Correlation Matrix (heatmap](heat.png)
+    
+![Correlation Matrix (heatmap)](heat.png)
       
     What is the correlation between the variables and the other variables ? (Why?)
     
