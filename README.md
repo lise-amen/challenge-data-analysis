@@ -30,25 +30,11 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 
 ### Step 2: Data analysis
     Which variable is the target ? --> Price
-    How many rows and columns ? --> 7611 x 19
+    How many rows and columns ? --> 7611 x 20
     What is the correlation between the variables and the target ? (Why might that be?)
-      'price','locality', 
-      'price','type_of_property', 
-      'price','subtype_of_property', 
-      'price','type_of_sale', 
-      'price','nr_of_rooms', 
-      'price','area', 
-      'price','equiped_kitchen', 
-      'price','furnished',
-      'price','open_fire', 
-      'price','terrace',        
-      'price','terrace_area', 
-      'price','garden', 
-      'price','garden_area',
-      'price','total_land_area', 
-      'price','nr_of_facades', 
-      'price','swimming_pool',
-      'price','building_condition'
+    
+![Correlation Matrix (heatmap)](heat.png)
+      
     What is the correlation between the variables and the other variables ? (Why?)
     
     Which variables have the greatest influence on the target ?
@@ -64,11 +50,33 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
-    Which variables would you delete and why ?
+   
+![Regression analysis](scatterreg.png)
+    
     In your opinion, which 5 variables are the most important and why?
+      - price
+      - number of rooms
+      - area
+      - swimming pool
+      - building condition
+      
+    --> Highest correlation with our price variable.
+      
+    
+    Which variables would you delete and why ?
+      - fireplace
+      - subtype of property
+      - garden
+      - garden area
+      
+    --> Lowest correlations with our price variable.
+    
     
     Creation of a new file belgian_postal_codes.csv to match the locality info in our data set with its location in a province and region of Belgium.
     Creation of two new columns in the dataset: Province and Region
+    
+ ![Average property price/sqm by Province (barchart)](price_area_province.png)   
+ ![Average property price/sqm by Region (barchart)](avg_price_region.png) 
     
     What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
     What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
@@ -77,7 +85,7 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
     What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
 
-
+![Average property price by Province (barchart)](bar.png)
 
 ## Run
 To run this application, launch
@@ -93,7 +101,7 @@ python main.py
 
 ## Possible improvements
 
-
+Dividing the dataset by property type(houses and apartments) and see whether the correlation values change.
 
 ## When
 
