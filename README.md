@@ -30,25 +30,11 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 
 ### Step 2: Data analysis
     Which variable is the target ? --> Price
-    How many rows and columns ? --> 7611 x 19
+    How many rows and columns ? --> 7611 x 20
     What is the correlation between the variables and the target ? (Why might that be?)
-      'price','locality', 
-      'price','type_of_property', 
-      'price','subtype_of_property', 
-      'price','type_of_sale', 
-      'price','nr_of_rooms', 
-      'price','area', 
-      'price','equiped_kitchen', 
-      'price','furnished',
-      'price','open_fire', 
-      'price','terrace',        
-      'price','terrace_area', 
-      'price','garden', 
-      'price','garden_area',
-      'price','total_land_area', 
-      'price','nr_of_facades', 
-      'price','swimming_pool',
-      'price','building_condition'
+
+      ![Correlation Matrix (heatmap](heat.png)
+      
     What is the correlation between the variables and the other variables ? (Why?)
     
     Which variables have the greatest influence on the target ?
