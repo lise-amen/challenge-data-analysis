@@ -41,15 +41,15 @@ print(median,'median')
 
 ##REGION MOYENNE + BAR by REGION barplot
 Region = df.groupby('Region').mean().reset_index
-plt.figure(figsize=(10,6)) 
-avg = len(df.index)/ df['price'].mean()
-max = df['area'].max()
-min = df['area'].min()
-binsVal = np.arange(min,max,50)
-ax = sns.barplot(x = 'area', y= 'price', data=df, hue='Region', estimator=np.median)
-ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right",fontsize=7)
-plt.tight_layout()
-plt.show()
+# plt.figure(figsize=(10,6)) 
+# avg = len(df.index)/ df['price'].mean()
+# max = df['area'].max()
+# min = df['area'].min()
+# binsVal = np.arange(min,max,50)
+# ax = sns.barplot(x = 'area', y= 'price', data=df, hue='Region', estimator=np.median)
+# ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right",fontsize=7)
+# plt.tight_layout()
+# plt.show()
 
 
 
