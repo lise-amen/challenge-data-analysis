@@ -33,7 +33,7 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     How many rows and columns ? --> 7611 x 20
     What is the correlation between the variables and the target ? (Why might that be?)
     
-![Correlation Matrix (heatmap)](heat.png)
+![Correlation Matrix (heatmap)](graphics/heat.png)
       
     What is the correlation between the variables and the other variables ? (Why?)
     
@@ -51,7 +51,7 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
    
-![Regression analysis](scatterreg.png)
+![Regression analysis](graphics/scatterreg.png)
     
     In your opinion, which 5 variables are the most important and why?
       - price
@@ -75,8 +75,8 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     Creation of a new file belgian_postal_codes.csv to match the locality info in our data set with its location in a province and region of Belgium.
     Creation of two new columns in the dataset: Province and Region
     
- ![Average property price/sqm by Province (barchart)](price_area_province.png)   
- ![Average property price/sqm by Region (barchart)](avg_price_region.png) 
+ ![Average property price/sqm by Province (barchart)](graphics/price_area_province.png)   
+ ![Average property price/sqm by Region (barchart)](graphics/avg_price_region.png) 
     
     What are the most expensive municipalities in Belgium? (Average price, median price, price per square meter)
     What are the most expensive municipalities in Wallonia? (Average price, median price, price per square meter)
@@ -85,7 +85,7 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
     What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
 
-![Average property price by Province (barchart)](bar.png)
+![Average property price by Province (barchart)](graphics/bar.png)
 
 ## Run
 To run this application, launch
