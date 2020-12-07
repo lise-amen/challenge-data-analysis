@@ -50,6 +50,9 @@ We are analyzing this data for a fictitious real estate company who wants to cre
 
 ### Step 3: Data interpretation
     Are there any outliers? If yes, which ones and why?
+   
+![Regression analysis](scatterreg.png)
+    
     Which variables would you delete and why ?
     In your opinion, which 5 variables are the most important and why?
     
@@ -63,7 +66,7 @@ We are analyzing this data for a fictitious real estate company who wants to cre
     What are the less expensive municipalities in Wallonia? (Average price, median price, price per square meter)
     What are the less expensive municipalities in Flanders? (Average price, median price, price per square meter)
 
-
+![Average property price by Province (barchart)](bar.png)
 
 ## Run
 To run this application, launch
@@ -79,7 +82,7 @@ python main.py
 
 ## Possible improvements
 
-
+Dividing the dataset by property type(houses and apartments) and see whether the correlation values change.
 
 ## When
 
