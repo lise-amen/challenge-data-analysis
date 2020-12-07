@@ -38,20 +38,35 @@ print(median,'median')
 # plt.tight_layout()
 # plt.show()
 
-
+"""
 ##REGION MOYENNE + BAR by REGION barplot
 Region = df.groupby('Region').mean().reset_index
-# plt.figure(figsize=(10,6)) 
-# avg = len(df.index)/ df['price'].mean()
-# max = df['area'].max()
-# min = df['area'].min()
-# binsVal = np.arange(min,max,50)
-# ax = sns.barplot(x = 'area', y= 'price', data=df, hue='Region', estimator=np.median)
-# ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right",fontsize=7)
-# plt.tight_layout()
-# plt.show()
+plt.figure(figsize=(10,6)) 
+avg = len(df.index)/ df['price'].mean()
+max = df['area'].max()
+min = df['area'].min()
+binsVal = np.arange(min,max,50)
+ax = sns.barplot(x = 'area', y= 'price', data=df, hue='Region', estimator=np.median)
+ax.set_xticklabels(ax.get_xticklabels(), rotation=40, ha="right",fontsize=7)
+plt.tight_layout()
+plt.show()"""
 
 
+##REGION MOYENNE Price PER AREA by Region
+Region_price = df.groupby('Region')['price'].mean()
+Region_area = df.groupby('Region')['area'].mean()
+print('Average price by Region \n', Region_price)
+price_per_area = (Region_price/Region_area)
+print('Average price per area by Region\n', price_per_area)
+
+list_region = price_per_area.index.tolist()
+list_price_per_area = price_per_area.tolist()
+
+fig, ax = plt.subplots()
+plt.bar(list_region, list_price_per_area)
+plt.title("Average price per area by Region") 
+plt.ylabel("€/m²") 
+plt.show()
 
 
 
