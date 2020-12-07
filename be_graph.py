@@ -38,6 +38,8 @@ print(median,'median')
 # plt.tight_layout()
 # plt.show()
 
+print(df.groupby['Province'])
+
 """
 ##REGION MOYENNE + BAR by REGION barplot
 Region = df.groupby('Region').mean().reset_index
